@@ -75,9 +75,9 @@ public class GameTest {
         move = game.MiniMax(board, player1);
         assertEquals(9, move);
 
-        board = new char[]{' ', ' ', ' ', ' ', 'O', ' ', ' ', ' ', 'O'};
+        board = new char[]{'O', 'X', 'O', 'X', 'O', 'X', 'X', 'O', ' '};
         move = game.MiniMax(board, player2);
-        assertTrue(move == 1 || move == 3 || move == 7 || move == 9);
+        assertEquals(9, move);
     }
 
     @Test

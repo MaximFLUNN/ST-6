@@ -38,10 +38,6 @@
     <plugins>
       <!-- Code Coverage report generation -->
       <plugin>
-
-
-
-
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>0.8.12</version>
